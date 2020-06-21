@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+import TodoPage from '../views/TodoPage.vue'
 import Dashboard from '../views/Dashboard.vue'
 import RegisterUser from "../components/RegisterUser.vue"
 
@@ -9,8 +9,8 @@ Vue.use(VueRouter)
   const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'TodoPage',
+    component: TodoPage
   },
   {
     path: '/dashboard',

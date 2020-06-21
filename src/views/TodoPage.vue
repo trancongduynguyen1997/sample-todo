@@ -100,7 +100,7 @@ export default {
 .todo-footer {
   background-color: rgb(127, 127, 213);
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   font-size: 1.2em;
   color: #eee;
   font-weight: lighter;
